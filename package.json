@@ -1,0 +1,22 @@
+{
+  "name": "stepper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "steps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraadam/stepper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fraadam/stepper/issues"
+  },
+  "homepage": "https://github.com/fraadam/stepper#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
