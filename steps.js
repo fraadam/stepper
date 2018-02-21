@@ -1,9 +1,9 @@
-/*Adott a következő táblázat:
-* 
+/* Adott a következő táblázat:
+*
 * |0|1|2|
 * |3|4|5|
 * |6|7|8|
-* 
+*
 * Írjatok programot, ami a '4' pontról 2 lépést tesz és megmondja, melyik számon áll.
 * Írja ki számmal és betűvel is.
 * Egy lépés értékkészlete a következő lehet: up, down, left, right.
@@ -15,8 +15,8 @@
 * Jó munkát! */
 
 var arr = [[0, 1, 2],
-[3, 4, 5],
-[6, 7, 8]];
+  [3, 4, 5],
+  [6, 7, 8]];
 
 var readlineSync = require('readline-sync');
 var x = 1;
@@ -29,7 +29,7 @@ function stepTwo () {
   switch (dir) {
     case 'q':
       x = x - 1;
-      y = y - 1;  // up-left
+      y = y - 1; // up-left
       break;
     case 'e':
       x = x + 1;
@@ -44,16 +44,16 @@ function stepTwo () {
       x = x + 1; // down-right
       break;
     case 'a':
-      x = x - 2;    // left
+      x = x - 2; // left
       break;
     case 'd':
-      x = x + 2;   // right
+      x = x + 2; // right
       break;
     case 'w':
-      y = y - 2;  // up
+      y = y - 2; // up
       break;
     case 'x':
-      y = y + 2;  // down
+      y = y + 2; // down
       break;
     case '0':
       check = false;
@@ -71,22 +71,22 @@ function steps () {
         break;
       case 1:
         console.log('one');
-        break; 
+        break;
       case 2:
         console.log('two');
-        break; 
+        break;
       case 3:
         console.log('three');
-        break; 
+        break;
       case 4:
         console.log('four');
-        break; 
+        break;
       case 5:
         console.log('five');
-        break; 
+        break;
       case 6:
         console.log('six');
-        break; 
+        break;
       case 7:
         console.log('seven');
         break;
