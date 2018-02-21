@@ -14,9 +14,9 @@
 * Továbbá egy tipp: Kommentben írhattok a switch-ek fölé megjegyzést magatoknak.
 * Jó munkát! */
 
-var arr = [[0, 1, 2],
-  [3, 4, 5],
-  [6, 7, 8]];
+var arr = [[0, 3, 6],
+  [1, 4, 7],
+  [2, 5, 8]];
 
 var readlineSync = require('readline-sync');
 var x = 1;
@@ -27,19 +27,19 @@ function stepTwo () {
   var dir = readlineSync.keyIn('Which direction do you want to go?');
 
   switch (dir) {
-    case 'q':
+    case 'q':   // 0
       x = x - 1;
       y = y - 1; // up-left
       break;
-    case 'e':
+    case 'y':  // 6
       x = x + 1;
       y = y - 1; // up-right
       break;
-    case 'y':
+    case 'e':  // 2
       y = y + 1;
       x = x - 1; // down-left
       break;
-    case 'c':
+    case 'c': // 8
       y = y + 1;
       x = x + 1; // down-right
       break;
